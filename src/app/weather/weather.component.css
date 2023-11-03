@@ -1,0 +1,82 @@
+/* Apply styles to the main container */
+.weather-background {
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the form container */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.weather-container {
+    text-align: center;
+    margin: 20px;
+  }
+
+  /* Style the heading */
+  .weather-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* Style the weather data display */
+  .weather-data {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  /* Style individual data elements */
+  .weather-data p {
+    margin: 5px 0;
+  }
+
+  /* Style the form container */
+  .weather-form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style the form labels and inputs */
+  .weather-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .weather-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  /* Style the form submit button */
+  .weather-form button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  /* Style the form submit button on hover */
+  .weather-form button:hover {
+    background-color: #0056b3;
+  }

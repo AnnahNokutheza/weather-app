@@ -25,6 +25,8 @@
     ]
   },
   "angularCompilerOptions": {
+    "module": "esNext",
+    "target": "es2015",
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
